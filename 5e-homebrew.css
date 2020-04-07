@@ -1,0 +1,183 @@
+@font-face {
+  font-family: ScalySansSmallCaps;
+  font-style: normal;
+  font-weight: normal;
+  src: local('Scaly Sans Caps'), url("/5e/Scaly Sans Caps/Scaly Sans Caps.otf") format("otf");
+}
+
+@font-face {
+  font-family: ScalySansSmallCaps;
+  font-style: italic;
+  font-weight: normal;
+  src: local('Scaly Sans Caps Italic'), url("/5e/Scaly Sans Caps/Scaly Sans Caps Italic.otf") format("otf");
+}
+
+@font-face {
+  font-family: ScalySansSmallCaps;
+  font-style: normal;
+  font-weight: bold
+  src: local('Scaly Sans Caps Bold'), url("/5e/Scaly Sans Caps/Scaly Sans Caps Bold.otf") format("otf");
+}
+
+@font-face {
+  font-family: ScalySansSmallCaps;
+  font-style: italic;
+  font-weight: bold;
+  src: local('Scaly Sans Caps Bold Italic'), url("/5e/Scaly Sans Caps/Scaly Sans Caps Bold Italic.otf") format("otf");
+}
+
+@font-face {
+  font-family: ScalySans;
+  font-style: normal;
+  font-weight: normal;
+  src: local('Scaly Sans'), url("/5e/Scaly Sans/Scaly Sans.otf") format("otf");
+}
+
+@font-face {
+  font-family: ScalySans;
+  font-style: italic;
+  font-weight: normal;
+  src: local('Scaly Sans Italic'), url("/5e/Scaly Sans/Scaly Sans Italic.otf") format("otf");
+}
+
+@font-face {
+  font-family: ScalySans;
+  font-style: normal;
+  font-weight: bold;
+  src: local('Scaly Sans Bold'), url("/5e/Scaly Sans/Scaly Sans Bold.otf") format("otf");
+}
+
+@font-face {
+  font-family: ScalySans;
+  font-style: italic;
+  font-weight: bold;
+  src: local('Scaly Sans Bold Italic'), url("/5e/Scaly Sans/Scaly Sans Bold Italic.otf") format("otf");
+}
+
+@font-face {
+  font-family: Bookinsanity;
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bookinsanity'), url("/5e/Bookinsanity/Bookinsanity.otf") format("otf");
+}
+
+@font-face {
+  font-family: Bookinsanity;
+  font-style: italic;
+  font-weight: normal;
+  src: local('Bookinsanity Italic'), url("/5e/Bookinsanity/Bookinsanity italic.otf") format("otf");
+}
+
+@font-face {
+  font-family: Bookinsanity;
+  font-style: normal;
+  font-weight: bold;
+  src: local('Bookinsanity Bold'), url("/5e/Bookinsanity/Bookinsanity Bold.otf") format("otf");
+}
+
+@font-face {
+  font-family: Bookinsanity;
+  font-style: italic;
+  font-weight: bold;
+  src: local('Bookinsanity Bold Italic'), url("/5e/Bookinsanity/Bookinsanity Bold Italic.otf") format("otf");
+}
+
+@font-face {
+  font-family: MrEaves;
+  font-style: normal;
+  font-weight: normal;
+  src: local('Mr. Eaves Small Caps'), url("/5e/Mr Eaves/Mr Eaves Small Caps.otf") format("otf");
+}
+
+:root {
+     --bg-color:#EEE5CE;
+}
+html {
+    font-size: 16px;
+}
+body {
+background: #EEE5CE;
+font-family: Bookinsanity, serif;
+}
+h1, h2, h3, h4 {
+ font-family: MrEaves, serif;
+ color:#58180D;
+}
+h1 {
+ column-span:all;
+ font-size:.987cm;
+ -webkit-column-span:all;
+ -moz-column-span:all
+}
+h2 {
+ font-size:.705cm
+}
+h3 {
+ font-size:.529cm;
+ border-bottom:2px solid #c9ad6a
+}
+h4 {
+ margin-bottom:0;
+ font-size:.458cm
+}
+h5 {
+ margin-bottom:.2em;
+ font-family: ScalySansSmallCaps;
+ font-size:.423cm;
+ font-weight:900
+}
+table {
+ font-family: ScalySans;
+ width:100%;
+ margin-bottom:1em;
+ font-size:10pt
+}
+table em {
+ font: ScalySans Italic;
+}
+table strong {
+ font: ScalySans Bold;
+ letter-spacing:-0.02em
+}
+table thead {
+ display:table-row-group;
+ font-weight:800
+}
+table thead th {
+ vertical-align:bottom;
+ padding-bottom:.3em;
+ padding-right:.1em;
+ padding-left:.1em
+}
+table tbody tr td {
+ padding:.3em .1em
+}
+table tbody tr:nth-child(odd) {
+ background-color:#e0e5c1
+}
+blockquote {
+ font-family:ScalySans;
+ box-sizing:border-box;
+ margin-bottom:1em;
+ padding:5px 10px;
+ background-color:#e0e5c1;
+ border-style:solid;
+ border-width:11px;
+border-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAA8CAMAAADG+c2+AAAANlBMVEX///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABHL6OuAAAAEXRSTlMABAwYJDRIXHSLo7fL2+fz+6go4VUAAAB6SURBVHgB7dg5DsJQAANRZ9+Xuf9lQUKKEHT5LlL4HWB6W5d61m1zrT/dhm5j6/RjPCkJco761ixQFoSl0aXfKQ+y9/qoJnAEYar01q64gqytNBz4ghyDMPMHnyYiIiIiIgIzYeYfj/Z56x3g7ovAf2L4bxb/EWS/ql7LZCDx/Ry3RwAAAABJRU5ErkJggg==) 11;
+ border-image-outset:9px 0;
+ box-shadow:1px 4px 14px #888
+}
+blockquote em {
+ font-family:ScalySans;
+ font-style:italic
+}
+blockquote strong {
+ font-family:ScalySans;
+ font-weight:800;
+ letter-spacing:-0.02em
+}
+blockquote p,
+blockquote ul {
+ font-size:.352cm;
+ line-height:1.1em
+}
