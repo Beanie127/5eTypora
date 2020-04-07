@@ -105,25 +105,26 @@ h1, h2, h3, h4 {
 }
 h1 {
  column-span:all;
- font-size:.987cm;
+ font-size:2.5em;
  -webkit-column-span:all;
  -moz-column-span:all
 }
 h2 {
- font-size:.705cm
+ font-size:2em
 }
 h3 {
- font-size:.529cm;
+ font-size: 1.8em;
  border-bottom:2px solid #c9ad6a
 }
 h4 {
  margin-bottom:0;
- font-size:.458cm
+ padding-bottom:0;
+ font-size:1.5em
 }
 h5 {
  margin-bottom:.2em;
  font-family: ScalySansSmallCaps;
- font-size:.423cm;
+ font-size: 1em;
  font-weight:900
 }
 table {

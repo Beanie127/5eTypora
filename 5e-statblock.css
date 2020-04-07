@@ -103,17 +103,19 @@ body {
     display: inline-block;
     vertical-align: top;
     background: #FDF1DC;
-    background-size: cover;
-	background-position: center; 
     padding: 10px 10px 20px;
     box-sizing: border-box;
     font-family: 'Scaly Sans', 'Noto Sans', 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
 }
-}
-
 #write {
-    max-width: 400px;
-    background: url("5e/statblockparch.jpg");
+    width: 100%;
+    max-width: 500px;
+    /*background: #FDF1DC;*/
+    /*background-image: url(.5e/statblockparch.jpg);*/
+    /*background-repeat;*/
+    /*background-size: 100% 100%;*/
+    background: url("5e/statblockparch.jpg") no-repeat 45% 90% transparent;
+    background-size: cover;
   	margin: 0 auto;
   	padding: 30px;
     padding-bottom: 100px;
@@ -173,8 +175,8 @@ h6 code {
 }
 h1 {
     font-family: MrEaves, serif;
-    color: #922610;
-    font-size: 3em;
+    color: #7A200D;
+    font-size: 2em;
     line-height: 1.2em;
     margin: 10px 0 0;
     letter-spacing: 1px;
@@ -188,14 +190,14 @@ h2 {
     font-weight: normal;
     letter-spacing: 1px;
     margin: 20px 0 10px;
-    padding: 0 0 10px;
+    padding: 0 0 0px;
     text-indent: 5px;
 }
 h3 {
     font-size: 1em;
     font-weight:100;
     margin:0;
-    color: #922610;
+    color: #7A200D;
 }
 h4 {
     font-weight: normal;
@@ -206,7 +208,7 @@ h4 {
 }
 h5 {
     font-family: MrEaves, serif;
-    color: #922610;
+    color: #7A200D;
     line-height: 1em;
     margin-bottom: 0;
 }
@@ -228,10 +230,9 @@ li>ul {
 }
 hr
 {
-  background:url("5e/horizontal-line.jpg");
-  background-repeat: no-repeat;
-  background-position: left;
-  border: 0;
+  background:url("5e/horizontal-line.png");
+  background-size: 100% 100%;
+  border: none;
   height: 6px;
 } 
 
