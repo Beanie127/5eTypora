@@ -1,16 +1,16 @@
 # Augustus Trimble
 
-#### Charlatan Forest Gnome Warlock Lv10, Chaotic Neutral
+#### Charlatan Forest Gnome Warlock, Chaotic Neutral
 
 #### Gelatinous Convocation Patron, Pact of the Chain
 
 ---
 
-### **Armour Class** 16
+##### **Armour Class** 16
 
-### **Hit Points** 87 (10d8 + 30)
+##### **Hit Points** 91 (11d8 + 32)
 
-### **Speed** 30 ft.
+##### **Speed** 30 ft.
 
 ---
 
@@ -20,19 +20,23 @@
 
 ---
 
-### **Saving Throws** Intelligence +9, Wisdom +5
+##### **Saving Throws** Strength +0, Dexterity +5, Constitution +3, Intelligence +10, Wisdom +6, Charisma +2
 
-### **Skills** Acrobatics +8, Arcana +9, Deception +5, History +9, Nature +9, Persuasion +5, Sleight of Hand +8
+##### **Skills** Acrobatics +9, Arcana +10, Deception +6, History +10, Nature +10, Persuasion +6, Sleight of Hand +9 (+1 to all ability checks from Stone of Good Luck)
 
-### **Tool Proficiencies** Disguise Kit, Cook's Utensils, Forger's Tools
+##### **Tool Proficiencies** Disguise Kit, Cook's Utensils, Forger's Tools
 
-### **Damage Immunities** Acid
+##### **Damage Immunities** Acid
 
-### **Senses** darkvision 60ft., passive Perception 11
+##### **Senses** darkvision 60ft., passive Perception 11
 
-### **Languages** Common, Gnomish, Elvish, Draconic, Sylvan, Primordial
+##### **Languages** Common, Gnomish, Elvish, Draconic, Sylvan, Primordial
 
 ---
+
+> Augustus' patron is the Gelatinous Convocation from [The Compendium of Forgotten Secrets: Awakening][CoFSA]
+>
+> [CoFSA]: https://www.genfantasypress.com/get-the-compendium "The Compendium of Forgotten Secrets: Awakening"
 
 ***Gnome Cunning.*** Makes mental saves against magic with advantage.
 
@@ -42,15 +46,15 @@
 
 ## Eldritch Invocations
 
-***Agonising Blast.*** When you hit a creature with your Eldritch Blast, deal additional damage equal to your spellcasting ability modifier.
+***Agonising Blast.*** When you hit a creature with your *[eldritch blast](###Eldritch Blast)*, deal additional damage equal to your spellcasting ability modifier.
 
-***Repelling Blast.*** When you hit a creature with your Eldritch Blast, you may push the target 10 feet back.
+***Repelling Blast.*** When you hit a creature with your *[eldritch blast](###Eldritch Blast)*, you may push the target 10 feet back.
 
 ***Gift of the Everliving Ones.*** While within 100 feet of your familiar, treat any hit dice rolled to recover health as if they were maximised.
 
 ***Convocation's Child.*** As a bonus action, make Relish change in size between a Small and a Medium creature.
 
-***Ascendant Step.*** Cast *Levitate* on yourself at will.
+***Misty Visions.*** Cast [*silent image*](###Silent Image) at will.
 
 ## Class Features
 
@@ -60,7 +64,7 @@
 
 ***Acidic Body.*** Whenever a creature starts its turn while involved in a grapple with you, you can choose to have it suffer 2d8 acid damage.
 
-***Side Splitting.*** At will, as an action, **or once per short or long rest as a reaction** upon taking damage, become a Medium swarm of Tiny oozes. Hit points remain the same and you function as a single unified swarm that occupies the same space as a Medium creature. While in this state, you cannot take actions other than the Dash action, your movement speed is halved, you gain resistance to bludgeoning, piercing and slashing damage (including the triggering damage if used as a reaction), you gain immunity to poison damage, you don't provoke opportunity attacks, and you can move through any space as narrow as 1 inch without squeezing. You can choose to return to your normal form without using an action whenever you wish, provided there is room to do so.
+***Side Splitting.*** At will, as an action, or once per short or long rest as a reaction upon taking damage, become a Medium swarm of Tiny oozes. Hit points remain the same and you function as a single unified swarm that occupies the same space as a Medium creature. While in this state, you cannot take actions other than the Dash action, your movement speed is halved, you gain resistance to bludgeoning, piercing and slashing damage (including the triggering damage if used as a reaction), you gain immunity to poison damage, you don't provoke opportunity attacks, and you can move through any space as narrow as 1 inch without squeezing. You can choose to return to your normal form without using an action whenever you wish, provided there is room to do so.
 
 ## Gem Abilities
 
@@ -69,40 +73,44 @@
 - At the end of a Long Rest, bestow the effects of one Eldritch Invocation on an ally.
 - As a reaction when attacked or caught within a damaging area of effect, expend one hit die or take a level of exhaustion to swap places with another creature that you can see within 30ft of you. If the creature is unwilling, it must make a Charisma Saving Throw against your Spell Save DC or be teleported.
 
-## spells
+## Spellcasting
 
-### **Spellcasting Ability** Intelligence
+Augustus is an 11th-level spellcaster. His ability is Intelligence (spell save DC 19, +12 to hit with spell attacks). He can cast three spells at 5th level per short rest. He knows the following spells:
 
-### **Spell Save DC** 18
+**Cantrips (at will):** *[eldritch blast](###Eldritch Blast), [toll the dead](###Toll The Dead), [shape water](###Shape Water), [mage hand](###Mage Hand), [minor illusion](###Minor Illusion), [prestidigitation](###Prestidigitation)*, *[silent image](###Silent Image)*
 
-### **Spell Attack Bonus** +11
+**Offensive:** *[synaptic static](###Synaptic Static), [vampiric touch](###Vampiric Touch), [blight](###Blight), [withering glance\*](###Withering Glance)*
 
-### **Spell Slots** 2
+**Defensive:** *[mirror image](###Mirror Image), [kaleidoscopies\*](###Kaleidoscopies)*
 
-| Cantrips                                  | Offensive                                     | Defensive                                 | Crowd Control                             | Buffs & Debuffs                           | Utility             |
-| ----------------------------------------- | --------------------------------------------- | ----------------------------------------- | ----------------------------------------- | ----------------------------------------- | ------------------- |
-| [Eldritch Blast](#####Eldritch Blast)     | [Synaptic Static](#####Synaptic Static)       | [Mirror Image](#####Mirror Image)         | [Hypnotic Pattern](#####Hypnotic Pattern) | [Enlarge/Reduce (C)](#####Enlarge/Reduce) | [Fly (C)](#####Fly) |
-| [Toll the Dead](#####Toll The Dead)       | [Vampiric Touch (C)](#####Vampiric Touch)     | [Kaleidoscopies (C)](#####Kaleidoscopies) | [Slime Sphere (C)](#####Slime Sphere)     | [Hex (C)](#####Hex)                       |                     |
-| [Shape Water](####Shape Water)            | [Blight](#####Blight)                         |                                           | [Ooze Cocoon (C)](#####Ooze Cocoon)       |                                           |                     |
-| [Mage Hand](#####Mage Hand)               | [Withering Glance (C)](#####Withering Glance) |                                           | [Hold Monster (C)](#####Hold Monster)     |                                           |                     |
-| [Minor illusion](###Minor Illusion)       |                                               |                                           |                                           |                                           |                     |
-| [Prestidigitation](#####Prestidigitation) |                                               |                                           |                                           |                                           |                     |
+**Crowd Control:** *[earthbind,](###Earthbind)* *[hypnotic pattern](###Hypnotic Pattern), [slime sphere\*](###Slime Sphere), [ooze cocoon\*](###Ooze Cocoon), [hold monster](###Hold Monster)*
+
+**Buffs & Debuffs:** *[enlarge/reduce](###Enlarge/Reduce), [hex](###Hex)*
+
+**Utility:** [*find greater steed*](###Find Greater Steed), *[fly](###Fly)*
+
+### Mystic Arcanum
+
+Mystic Arcana can be cast once per long rest. 
+
+**Sixth-level:** *[mental prison](###Mental Prison)*
 
 ## Items and Equipment
 
 | Tools           | Permanent                              | Consumable                   |
 | --------------- | -------------------------------------- | ---------------------------- |
 | Cook's Utensils | Ring of Warming (attunement)           | Potion of Fire Resistance    |
-| Forger's Tools  | +1 Rod of the Pact Keeper (attunement) | Chime of Opening (8 charges) |
-| Disguise Kit    | Lantern of Revealing                   | Healer's Kit (6 charges)     |
+| Forger's Tools  | +2 Rod of the Pact Keeper (attunement) | Chime of Opening (8 charges) |
+| Disguise Kit    | Stone of Good Luck (attunement)        | Healer's Kit (6 charges)     |
 | Explorer's Pack | Heward's Handy Spice Pouch             | Aristocratic meals (29)      |
 |                 | Deck of rigged cards                   |                              |
+|                 | Lantern of Revealing                   |                              |
 
 ## The Spells of Augustus Trimble
 
 *N.B. These spells are recorded as if automatically upcast to 5th level*
 
-##### Blight
+### Blight
 
 #### *4th-level Necromancy*
 
@@ -115,7 +123,18 @@ Necromantic energy washes over a creature of your choice that you can see within
 	If you target a plant creature or a magical plant, it makes the saving throw with disadvantage, and the spell deals maximum damage to it.
 	If you target a nonmagical plant that isn't a creature, such as a tree or shrub, it doesn't make a saving throw, it simply withers and dies.
 
-##### Eldritch Blast
+### Earthbind
+
+#### *2nd-level Transmutation*
+
+**Casting Time:** 1 action
+**Range:** 300 feet
+**Components:** V
+**Duration:** Concentration, up to 1 minute
+
+Choose one creature you can see within range. Yellow strips of magical energy loop around the creature. The target must succeed on a Strength saving throw or its flying speed (if any) is reduced to 0 feet for the spell's duration. An airborne creature affected by this spell descends at 60 feet per round until it reaches the ground or the spell ends.
+
+### Eldritch Blast
 
 #### *Evocation cantrip*
 
@@ -124,9 +143,9 @@ Necromantic energy washes over a creature of your choice that you can see within
 **Components:** V, S
 **Duration:** Instantaneous
 
-Two beams of crackling energy streak toward a creature or creatures of your choice within range. Make a ranged spell attack for each beam against the target. On a hit, the target takes 1d10 force damage.
+Three beams of crackling energy streak toward a creature or creatures of your choice within range. Make a ranged spell attack for each beam against the target. On a hit, the target takes 1d10 force damage.
 
-##### Enlarge/Reduce
+### Enlarge/Reduce
 
 #### 1st-level Transmutation
 
@@ -140,7 +159,7 @@ You cause a creature or an object you can see within range to grow larger or sma
 	***Enlarge.*** The target's size doubles in all dimensions, and its weight is multiplied by eight. This growth increases its size by one category—from Medium to Large, for example. If there isn't enough room for the target to double its size. the creature or object attains the maximum possible size in the space available. Until the spell ends, the target also has advantage on Strength checks and Strength saving throws. The target's weapons also grow to match its new size. While these weapons are enlarged, the target's attacks with them deal 1d4 extra damage.
 	***Reduce.*** The target's size is halved in all dimensions, and its weight is reduced to one-eighth of normal. This reduction decreases its size by one category—from Medium to Small, for example. Until the spell ends, the target also has disadvantage on Strength checks and Strength saving throws. The target's weapons also shrink to match its new size. While these weapons are reduced, the target's attacks with them deal ld4 less damage (this can't reduce the damage below 1).
 
-##### Find Greater Steed
+### Find Greater Steed
 
 #### 4th-level Conjuration
 
@@ -155,7 +174,11 @@ You summon a spirit that assumes the form of a loyal, majestic mount. Appearing 
 	You can't have more than one mount bonded by this spell or find steed at the same time. As an action, you can release a mount from its bond, causing it to disappear permanently.
 	Whenever the mount disappears, it leaves behind any objects it was wearing or carrying.
 
-##### Fly
+># How does a warlock have this spell?
+>
+>Augustus gained this spell from a *Wish* cast by the Grand Sultan of the City of Brass as a reward for his services protecting the city from the invading creatures from the Deep Astral Plane.
+
+### Fly
 
 #### 3rd-level Transmutation
 
@@ -166,7 +189,7 @@ You summon a spirit that assumes the form of a loyal, majestic mount. Appearing 
 
 You touch up to three willing creatures. Each target gains a flying speed of 60 feet for the duration. When the spell ends, the target falls if it is still aloft, unless it can stop the fall.
 
-##### Hex
+### Hex
 
 #### 1st-level Enchantment
 
@@ -179,7 +202,7 @@ You place a curse on a creature that you can see within range. Until the spell e
 	If the target drops to 0 hit points before this spell ends, you can use a bonus action on a subsequent turn of yours to curse a new creature.
 	A *remove curse* cast on the target ends this spell early.
 
-##### Hold Monster
+### Hold Monster
 
 #### 5th-level Enchantment
 
@@ -190,7 +213,7 @@ You place a curse on a creature that you can see within range. Until the spell e
 
 Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or be paralysed for the duration. This spell has no effect on undead. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.
 
-##### Hypnotic Pattern
+### Hypnotic Pattern
 
 #### 3rd-level Illusion
 
@@ -202,7 +225,7 @@ Choose a creature that you can see within range. The target must succeed on a Wi
 You create a twisting pattern of colours that weaves through the air inside a 30-foot cube within range. The pattern appears for a moment and vanishes. Each creature in the area who sees the pattern must make a Wisdom saving throw. On a failed save, the creature becomes charmed for the duration. While charmed by this spell, the creature is incapacitated and has a speed of 0.
 	The spell ends for an affected creature if it takes any damage or if someone else uses an action to shake the creature out of its stupor.
 
-##### Kaleidoscopies
+### Kaleidoscopies
 
 #### 3rd-level Illusion
 
@@ -211,9 +234,13 @@ You create a twisting pattern of colours that weaves through the air inside a 30
 **Components:** V, S, M (a glowing stick of incense or a crystal vial filled with phosphorescent material)
 **Duration:** Concentration, up to 1 minute
 
-Three illusory duplicates of yourself appear within range, as per the *Mirror Image* spell. When a creature hits one of these duplicates with a melee attack, the duplicate explodes, creating a small [*Hypnotic Pattern*](#####Hypnotic Pattern) which only affects the attacking creature.
+Three illusory duplicates of yourself appear within range, as per the [*mirror image*](###Mirror Image) spell. When a creature hits one of these duplicates with a melee attack, the duplicate explodes, creating a small [*hypnotic pattern*](###Hypnotic Pattern) which only affects the attacking creature.
 
-##### Mage Hand
+>  # Origins
+>
+> Augustus invented this spell combining [*mirror image*](###Mirror Image) with [*hypnotic pattern*](###Hypnotic Pattern) while traversing the Plane of Earth, using the glowing, poisonous fungi found in abundance in the winding stone caverns of the plane as his material component for experimentation.
+
+### Mage Hand
 
 #### Conjuration cantrip
 
@@ -226,7 +253,19 @@ A spectral, floating hand appears at a point you choose within range. The hand l
 	You can use your action to control the hand. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve and item from an open container, or pour out the contents of a vial. You can move the hand up to 30 feet each time you use it.
 	The hand can't attack, activate magic items, or carry more than 10 pounds.
 
-##### Minor Illusion
+### Mental Prison
+
+#### 6th-level Illusion
+
+**Casting time:** 1 action
+**Range:** 60 feet
+**Components:** S
+**Duration:** Concentration, up to 1 minute
+
+You attempt to bind a creature within an illusory cell that only it perceives. One creature you can see within range must make an Intelligence saving throw. The target succeeds automatically if it is immune to being charmed. On a successful save, the target takes 5d10 psychic damage, and the spell ends. On a failed save, the target takes 5d10 psychic damage, and you make the area immediately around the target's space appear dangerous to it in some way. You might cause the target to perceive itself as being surrounded by fire, floating razors, or hideous maws filled with dripping teeth.
+	Whatever form the illusion takes, the target can't see or hear anything beyond it and is restrained for the spell's duration. If the target is moved out of the illusion, makes a melee attack through it, or reaches any part of its body through it, the target takes 10d10 psychic damage, and the spell ends.
+
+### Minor Illusion
 
 #### Illusion cantrip
 
@@ -240,7 +279,7 @@ You create a sound or an image of an object within range that lasts for the dura
 	If you create an image of an object—such as a chair, muddy footprints, or a small chest—it must be no larger than a 5-foot cube. The image can't create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it.
 	If a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If the create determines the illusion for what it is, the illusion becomes faint to the creature.
 
-##### Mirror Image
+### Mirror Image
 
 #### 2nd-level illusion
 
@@ -255,7 +294,7 @@ Three illusory duplicates of yourself appear within your space. Until the spell 
 	A duplicate's AC equals 10 + your Dexterity modifier. If an attack hits a duplicate, the duplicate is destroyed. A duplicate can be destroyed only by an attack that hit it. It ignores all other damage and effects. The spell ends when all three duplicates are destroyed.
 	A creature is unaffected by this spell if it can't see, if it relies on senses other than sight, such as blindsight, or if it can perceive illusions as false, as with truesight.
 
-##### Ooze Cocoon
+### Ooze Cocoon
 
 #### 4th-level Conjuration
 
@@ -268,7 +307,11 @@ The touch of your goopy paw can surround a creature in a cocoon of burning ooze.
 	At the start of its turn, a restrained creature may make a Strength (Athletics) check against your Spell Save DC. On a success, it is no longer restrained and is immune to further castings of this spell for 24 hours. On a failure, it takes 2d8 acid damage and remains restrained. 
 Until the spell ends, you can make the attack again on each of your turns as an action.
 
-##### Prestidigitation
+># Origins
+>
+>A melee version of [*slime sphere*](###Slime Sphere), affecting the caster in a manner similar to [*vampiric touch*](###Vampiric Touch). Augustus created this spell while travelling on the Plane of Water, hoping to avoid a repeat of the time he accidentally gunged the Paladin while trying to aid him in battle.
+
+### Prestidigitation
 
 #### Transmutation cantrip
 
@@ -288,7 +331,7 @@ This spell is a minor magical trick that novice spellcasters use for practice. Y
 
 If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.
 
-##### Shape Water
+### Shape Water
 
 #### Transmutation cantrip
 
@@ -306,7 +349,22 @@ You choose an area of water that you can see within range and that fits within a
 
 If you cast this spell multiple times, you can have no more than two of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.
 
-##### Slime Sphere
+### Silent Image
+
+#### 1st-level Illusion
+
+**Casting Time:** 1 action
+**Range:** 60 feet
+**Components:** V, S, M (a bit of fleece)
+**Duration:** Concentration, up to 10 minutes
+
+You create the image of an object, a creature, or some other visible phenomenon that is no larger than a 15-foot cube. The image appears at a spot within range and lasts for the duration. The image is purely visual; it isn't accompanied by sound, smell, or other sensory effects.
+	You can use your action to cause the image to move to any spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking.
+	Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its action with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image.
+
+
+
+### Slime Sphere
 
 #### 4th-level Conjuration
 
@@ -319,7 +377,11 @@ When you cast this spell, a massive sphere of adhesive slime appears, grows, and
 	At the start of each of their turns, a restrained creature can use a bonus action to make a Strength saving throw. If they fail, they remain restrained within the sphere and take 2d8 acid damage. If they succeed, they exit the sphere at the nearest unoccupied location and take half as much damage. 
 	Any creature that is forcibly pushed into the sphere, or enters it voluntarily, automatically becomes restrained.
 
-##### Synaptic Static
+># Origins
+>
+>This spell comes to us from the [Compendium of Forgotten Secrets: Awakening][CoFSA] by Genuine Fantasy Press, from which Augustus's Patron is pulled.
+
+### Synaptic Static
 
 #### 5th-level Enchantment
 
@@ -331,7 +393,7 @@ When you cast this spell, a massive sphere of adhesive slime appears, grows, and
 You choose a point within range and cause psychic energy to explode there. Each creature in a 20-foot-radius sphere centred on that point must make an Intelligence saving throw. A creature with an Intelligence score of 2 or lower can't be affected by this spell. A target takes 8d6 psychic damage on a failed save, or half as much damage on a successful one.
 	After a failed save, a target has muddled thoughts for 1 minute. During that time, it rolls a d6 and subtracts the number rolled from all its attack rolls and ability checks, as well as its Constitution saving throws to maintain concentration. The target can make an Intelligence saving throw at the end of each of its turns, ending the effect on itself on a success.
 
-##### Toll The Dead
+### Toll The Dead
 
 #### Necromancy cantrip
 
@@ -340,14 +402,14 @@ You choose a point within range and cause psychic energy to explode there. Each 
 **Components:** V, S
 **Duration:** Instantaneous
 
-You point at one creature you can see within range, and the sound of a dolorous bell fills the air around it for a moment. The target must succeed on a Wisdom saving throw or take 2d8 necrotic damage. If the target is missing any of its hit points, it instead takes 2d12 necrotic damage.
+You point at one creature you can see within range, and the sound of a dolorous bell fills the air around it for a moment. The target must succeed on a Wisdom saving throw or take 3d8 necrotic damage. If the target is missing any of its hit points, it instead takes 3d12 necrotic damage.
 
-##### Tsunami
+### Tsunami
 
 #### 8th-level Conjuration
 
 **Casting Time:** 1 minute
-**Range:** Signt
+**Range:** Sight
 **Components:** V, S
 **Duration:** Concentration, up to 6 rounds
 
@@ -356,7 +418,11 @@ A wall of water springs into existence at a point you choose within range. You c
 	At the start of each of your turns after the wall appears, the wall, along with any creatures in it, moves 50 feet away from you. Any Huge or smaller creature inside the wall or whose space the wall enters when it moves must succeed on a Strength saving throw or take 5d10 bludgeoning damage. A creature can take this damage only once per round. At the end of the turn, the wall's height is reduced by 50 feet, and the damage creatures take from the spell on subsequent rounds is reduced by 1d10. When the wall reaches 0 feet in height, the spell ends.
 	A creature caught in the wall can move by swimming. Because of the force of the wave, though, the creature must make a successful Strength (Athletics) check against your spell save DC in order to move at all. If it fails the check, it can't move. A creature that moves out of the area falls to the ground.
 
-##### Vampiric Touch
+> # An 8th-level Druid spell? In MY Warlock?
+>
+> Augustus is granted the ability to cast this spell by the Elemental Gem embedded in his chest, which compels him to travel the multiverse to bear witness before its inevitable destruction. Or is it actually evitable?
+
+### Vampiric Touch
 
 #### 3rd-level Necromancy
 
@@ -367,7 +433,7 @@ A wall of water springs into existence at a point you choose within range. You c
 
 The touch of your shadow-wreathed hand can siphon life force from others to heal your wounds. Make a melee spell attack against a creature within your reach. On a hit, the target takes 5d6 necrotic damage, and you regain hit points equal to half the amount of necrotic damage dealt. Until the spell ends, you can make the attack again on each of your turns as an action.
 
-##### Water Walk
+### Water Walk
 
 #### 3rd-level Transmutation (ritual)
 
@@ -379,7 +445,7 @@ The touch of your shadow-wreathed hand can siphon life force from others to heal
 This spell grants the ability to move across any liquid surface—such as water, acid, mud, snow, quicksand, or lava—as if it were harmless solid ground (creatures crossing molten lava can still take damage from the heat). Up to ten willing creatures you can see within range gain this ability for the duration.
 	If you target a creature submerged in a liquid, the spell carries the target to the surface of the liquid at a rate of 60 feet per round.
 
-##### Withering Glance
+### Withering Glance
 
 #### 5th-level Necromancy
 
@@ -389,3 +455,7 @@ This spell grants the ability to move across any liquid surface—such as water,
 **Duration:** Concentration, up to 1 minute
 
 The darkness within your soul touches another through nothing more than a look. Choose a creature within range that you can see. The target must make a Constitution saving throw. On a failed save, the target takes 4d8 necrotic damage and until the spell ends, has disadvantage on Strength checks and Strength saving throws. On a success, the target takes 2d8 damage and suffers no other effects.
+
+> # Origins
+>
+> Spooky action at a distance! This spell, combining the moisture-drawing damage effects of [*blight*](###blight) and the strength-sapping effects of [*enlarge/reduce*](###Enlarge/Reduce), was created by Augustus while the party rested in the Sultan's palace in the City of Brass.
