@@ -1,208 +1,207 @@
-font:root {
-     --bg-color:#EEE5CE;
+@font-face {
+	font-family: ScalySans;
+	font-style: normal;
+	font-weight: normal;
+	src: local('Scaly Sans'), url("/5e/Scaly Sans/Scaly Sans.otf") format("otf");
 }
 
 @font-face {
-  font-family: Bookinsanity;
-  font-style: normal;
-  font-weight: normal;
-  src: local('Bookinsanity'), url("/5e/Bookinsanity/Bookinsanity.otf") format("otf");
+	font-family: ScalySans;
+	font-style: italic;
+	font-weight: normal;
+	src: local('Scaly Sans Italic'), url("/5e/Scaly Sans/Scaly Sans Italic.otf") format("otf");
 }
 
 @font-face {
-  font-family: Bookinsanity;
-  font-style: italic;
-  font-weight: normal;
-  src: local('Bookinsanity Italic'), url("/5e/Bookinsanity/Bookinsanity Italic.otf") format("otf");
+	font-family: ScalySans;
+	font-style: normal;
+	font-weight: bold;
+	src: local('Scaly Sans Bold'), url("/5e/Scaly Sans/Scaly Sans Bold.otf") format("otf");
 }
 
 @font-face {
-  font-family: Bookinsanity;
-  font-style: normal;
-  font-weight: bold;
-  src: local('Bookinsanity Bold'), url("/5e/Bookinsanity/Bookinsanity Bold.otf") format("otf");
+	font-family: ScalySans;
+	font-style: italic;
+	font-weight: bold;
+	src: local('Scaly Sans Bold Italic'), url("/5e/Scaly Sans/Scaly Sans Bold Italic.otf") format("otf");
 }
 
 @font-face {
-  font-family: Bookinsanity;
-  font-style: italic;
-  font-weight: bold;
-  src: local('Bookinsanity Bold Italic'), url("/5e/Bookinsanity/Bookinsanity Bold Italic.otf") format("otf");
+	font-family: Bookinsanity;
+	font-style: normal;
+	font-weight: normal;
+	src: local('Bookinsanity'), url("/5e/Bookinsanity/Bookinsanity.otf") format("otf");
 }
 
 @font-face {
-  font-family: ScalySansSmallCaps;
-  font-style: normal;
-  font-weight: normal;
-  src: local('Scaly Sans Caps'), url("/5e/Scaly Sans Caps/Scaly Sans Caps.otf") format("otf");
+	font-family: Bookinsanity;
+	font-style: italic;
+	font-weight: normal;
+	src: local('Bookinsanity Italic'), url("/5e/Bookinsanity/Bookinsanity Italic.otf") format("otf");
 }
 
 @font-face {
-  font-family: ScalySansSmallCaps;
-  font-style: italic;
-  font-weight: normal;
-  src: local('Scaly Sans Caps Italic'), url("/5e/Scaly Sans Caps/Scaly Sans Caps Italic.otf") format("otf");
+	font-family: Bookinsanity;
+	font-style: normal;
+	font-weight: bold;
+	src: local('Bookinsanity Bold'), url("/5e/Bookinsanity/Bookinsanity Bold.otf") format("otf");
 }
 
 @font-face {
-  font-family: ScalySansSmallCaps;
-  src: local('Scaly Sans Caps Bold'), url("/5e/Scaly Sans Caps/Scaly Sans Caps Bold.otf") format("otf");
-  font-style: normal;
-  font-weight: bold;
-}
-@font-face {
-  font-family: ScalySansSmallCapsBold;
-  src: local('Scaly Sans Caps Bold'), url("/5e/Scaly Sans Caps/Scaly Sans Caps Bold.otf") format("otf");
-  font-style: normal;
-  font-weight: normal;
+	font-family: Bookinsanity;
+	font-style: italic;
+	font-weight: bold;
+	src: local('Bookinsanity Bold Italic'), url("/5e/Bookinsanity/Bookinsanity Bold Italic.otf") format("otf");
 }
 
 @font-face {
-  font-family: ScalySansSmallCaps;
-  font-style: italic;
-  font-weight: bold;
-  src: local('Scaly Sans Caps Bold Italic'), url("/5e/Scaly Sans Caps/Scaly Sans Caps Bold Italic.otf") format("otf");
+	font-family: ScalySansSmallCaps;
+	font-style: normal;
+	font-weight: normal;
+	src: local('Scaly Sans Caps'), url("/5e/Scaly Sans Caps/Scaly Sans Caps.otf") format("otf");
 }
 
 @font-face {
-  font-family: ScalySans;
-  font-style: normal;
-  font-weight: normal;
-  src: local('Scaly Sans'), url("/5e/Scaly Sans/Scaly Sans.otf") format("otf");
+	font-family: ScalySansSmallCaps;
+	font-style: italic;
+	font-weight: normal;
+	src: local('Scaly Sans Caps Italic'), url("/5e/Scaly Sans Caps/Scaly Sans Caps Italic.otf") format("otf");
 }
 
 @font-face {
-  font-family: ScalySans;
-  font-style: italic;
-  font-weight: normal;
-  src: local('Scaly Sans Italic'), url("/5e/Scaly Sans/Scaly Sans Italic.otf") format("otf");
+	font-family: ScalySansSmallCaps;
+	font-style: normal;
+	font-weight: bold;
+	src: local('Scaly Sans Caps Bold'), url("/5e/Scaly Sans Caps/Scaly Sans Caps Bold.otf") format("otf");
 }
 
 @font-face {
-  font-family: ScalySans;
-  font-style: normal;
-  font-weight: bold;
-  src: local('Scaly Sans Bold'), url("/5e/Scaly Sans/Scaly Sans Bold.otf") format("otf");
-}
-@font-face {
-  font-family: ScalySansBold;
-  font-style: normal;
-  font-weight: normal;
-  src: local('Scaly Sans Bold'), url("/5e/Scaly Sans/Scaly Sans Bold.otf") format("otf");
-}
-@font-face {
-  font-family: ScalySans;
-  font-style: italic;
-  font-weight: bold;
-  src: local('Scaly Sans Bold Italic'), url("/5e/Scaly Sans/Scaly Sans Bold Italic.otf") format("otf");
+	font-family: ScalySansSmallCaps;
+	font-style: italic;
+	font-weight: bold;
+	src: local('Scaly Sans Caps Bold Italic'), url("/5e/Scaly Sans Caps/Scaly Sans Caps Bold Italic.otf") format("otf");
 }
 
 @font-face {
-  font-family: MrEaves;
-  font-style: normal;
-  font-weight: normal;
-  src: local('Mr. Eaves Small Caps'), url("/5e/Mr Eaves/Mr Eaves Small Caps.otf") format("otf");
+	font-family: MrEaves;
+	font-style: normal;
+	font-weight: normal;
+	src: local('Mr. Eaves Small Caps'), url("/5e/Mr Eaves/Mr Eaves Small Caps.otf") format("otf");
 }
 
 html {
-    font-size: 16px;
+	font-size: 16px;
 }
+
 body {
-background: #EEE5CE;
-font-family: Bookinsanity;
+	background: #F2ECE4;
+	font-family: Bookinsanity;
 }
-h1, h2, h3, h4 {
- font-family: MrEaves;
- color:#58180D;
+
+#write {
+	width: 100%;
+	background-image: url(5e/PHB-background.jpg);
+	background-size: auto;
+	background-repeat: repeat-y;
+	margin: 0 auto;
+	padding: 30px;
+	padding-bottom: 100px;
 }
-h1 {
- column-span:all;
- font-size:3em;
- -webkit-column-span:all;
- -moz-column-span:all
-}
-h2 {
- font-size:2.5em;
- font-weight: normal;
-}
+
+h1,
+h2,
 h3 {
- font-size: 2em;
- border-bottom:2px solid #c9ad6a;
- font-weight: normal;
+	font-family: MrEaves;
+	color: #58170D;
+}
+
+h1 {
+	font-size: 2.5em;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 2em;
+	border-bottom: 2px solid #C9AD6A;
+	font-weight: normal;
+}
+
+h3 {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	font-size: 1.5em;
+	font-weight: normal;
 }
 
 h4 {
- margin-bottom:0;
- padding-bottom:0;
- font-size:1.5em;
- font-weight: normal;
+	margin-bottom: .2em;
+	font: 1.2em ScalySansSmallCaps;
 }
 
 h5 {
- margin-bottom:.2em;
- font: 1.2em ScalySansSmallCaps;
+	font-family: ScalySans;
+	text-align: center;
+	font-size: 1em;
+	font-weight: bold;
 }
 
-h6 {
-    font-family: ScalySans;
-    text-align:center;
-    font-size: 1em;
-    font-weight: normal;
-}
-h6 strong {
-    font-family: ScalySansBold;
-    font-weight: normal;
-}
 p {
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-}
-blockquote {
- font-family: ScalySans;
- background-color: white;
- border-color: transparent;
- border-style: solid;
- border-collapse: separate;
- border-image: url(5e/table-border.png);
- border-image-outset: 25px 17px;
- border-image-slice: 150 200 150 200;
- border-image-width: 47px;
- margin-bottom: 40px;
- margin-top: 25px;
-}
-table {
- font-family: ScalySans;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
 }
 
-table thead, table th, table tr th {
-font-family: ScalySans;
-font-weight: normal;
+blockquote {
+	font-family: ScalySans;
+	background-color: white;
+	border-color: transparent;
+	border-style: solid;
+	border-collapse: separate;
+	border-image: url(5e/table-border.png);
+	border-image-outset: 25px 17px;
+	border-image-slice: 150 200 150 200;
+	border-image-width: 47px;
+	margin-bottom: 40px;
+	margin-top: 25px;
+}
+
+table {
+	font-family: ScalySans;
+}
+
+table thead,
+table th,
+table tr th {
+	font-family: ScalySans;
+	font-weight: normal;
 }
 
 table tbody tr:nth-child(odd) {
- background-color:#e0e5c1
+	background-color: #e0e5c1
 }
 
 code {
- font-family:ScalySans;
- display:block;
- box-sizing:border-box;
- margin-bottom:2em;
- padding:5px 10px;
- background-color:#e0e5c1;
- border-style:solid;
- border-width:11px;
- border-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAA8CAMAAADG+c2+AAAANlBMVEX///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABHL6OuAAAAEXRSTlMABAwYJDRIXHSLo7fL2+fz+6go4VUAAAB6SURBVHgB7dg5DsJQAANRZ9+Xuf9lQUKKEHT5LlL4HWB6W5d61m1zrT/dhm5j6/RjPCkJco761ixQFoSl0aXfKQ+y9/qoJnAEYar01q64gqytNBz4ghyDMPMHnyYiIiIiIgIzYeYfj/Z56x3g7ovAf2L4bxb/EWS/ql7LZCDx/Ry3RwAAAABJRU5ErkJggg==) 20%;
- border-image-outset:9px 0;
- box-shadow:1px 4px 14px #888
+	font-family: ScalySans;
+	display: block;
+	box-sizing: border-box;
+	margin-bottom: 2em;
+	padding: 5px 10px;
+	background-color: #E0E5C1;
+	border-style: solid;
+	border-width: 11px;
+	border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAA8CAMAAADG+c2+AAAANlBMVEX///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABHL6OuAAAAEXRSTlMABAwYJDRIXHSLo7fL2+fz+6go4VUAAAB6SURBVHgB7dg5DsJQAANRZ9+Xuf9lQUKKEHT5LlL4HWB6W5d61m1zrT/dhm5j6/RjPCkJco761ixQFoSl0aXfKQ+y9/qoJnAEYar01q64gqytNBz4ghyDMPMHnyYiIiIiIgIzYeYfj/Z56x3g7ovAf2L4bxb/EWS/ql7LZCDx/Ry3RwAAAABJRU5ErkJggg==) 20%;
+	border-image-outset: 9px 0;
+	box-shadow: 1px 4px 14px #888
 }
 
 blockquote p,
 blockquote ul {
- font-size:.352cm;
- line-height:1.1em
+	font-size: .352cm;
+	line-height: 1.1em
 }
+
 ul {
-    line-height: 1em;
-    padding-left: 1em;
+	line-height: 1em;
+	padding-left: 1em;
 }
+
+

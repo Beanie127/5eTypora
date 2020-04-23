@@ -172,7 +172,7 @@ h6 code {
 }
 h1 {
     font-family: MrEaves, serif;
-    color: #7A200D;
+    color: #58170D;
     font-size: 2em;
     line-height: 1.2em;
     margin: 10px 0 0;
@@ -181,8 +181,8 @@ h1 {
     font-weight: bold;
 }
 h2 {
-    border-bottom: 2px solid #7A200D;
-    color: #7A200D;
+    border-bottom: 2px solid #58180D;
+    color: #58170D;
     font-variant: small-caps;
     font-weight: normal;
     letter-spacing: 1px;
@@ -192,7 +192,7 @@ h2 {
 }
 h3 {
     font-family: MrEaves, serif;
-    color: #7A200D;
+    color: #58170D;
     line-height: 1em;
     margin-bottom: 0;
 }
@@ -207,7 +207,7 @@ h5 {
     font-size: 1em;
     font-weight:100;
     margin:0;
-    color: #7A200D;
+    color: #58180D;
 }
 h6 {
    font-size: 1em;
@@ -226,7 +226,7 @@ li>ul {
 }
 hr
 {
-  background-image: url(5e/horizontal-line.png);
+  background-image: url(5e/statblock-horizontal-rule.png);
   background-size: 100% 100%;
   border: none;
   margin: 0.5em 0em;
@@ -286,7 +286,7 @@ blockquote ul {
 }
 table {
     font-size: 0.9em;
-    color: #7A200D;
+    color: #58170D;
     padding: 0px;
     margin: 0px;
     word-break: initial;
@@ -298,7 +298,7 @@ table thead {
 }
 table tr {
     text-align: center;
-    color: #922610;
+    color: #58170D;
     vertical-align: middle;
 }
 table tr th {
